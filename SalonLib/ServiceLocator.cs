@@ -1,4 +1,5 @@
 ﻿namespace SalonLib;
+
 public class ServiceLocator
 {
     private static IDictionary<string, Func<string>> store;
