@@ -24,7 +24,7 @@ public class SquareEquation
         }
         if (d > eps)
         {
-            double x1 = -(b + Math.Sign(b) * Math.Sqrt(d)) / (2 * a);
+            double x1 = -(b + b* Math.Sqrt(d)) / (2 * a);
             double x2 = c / x1;
             roots = new double[2];
             roots[0] = x1; roots[1] = x2;
