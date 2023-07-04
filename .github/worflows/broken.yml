@@ -2,7 +2,7 @@ name: broken
 
 on:
   push:
-    branches: ["broken/solution"]
+    branches: ["broсken/solution"]
 
 jobs:
   build:
