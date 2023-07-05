@@ -1,10 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\Spin\Spin.csproj" />
-    <ProjectReference Include="..\Fuel\Fuel.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -12,3 +7,5 @@
   </PropertyGroup>
 
 </Project>
+
+

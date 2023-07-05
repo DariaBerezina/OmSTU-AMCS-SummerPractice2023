@@ -28,6 +28,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\spacebattle\spacebattle.csproj" />
+    <ProjectReference Include="..\Fuel\Fuel.csproj" />
+    <ProjectReference Include="..\Spin\Spin.csproj" />
   </ItemGroup>
 
 </Project>

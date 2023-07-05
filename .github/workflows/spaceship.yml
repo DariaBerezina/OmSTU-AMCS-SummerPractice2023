@@ -1,4 +1,4 @@
-name: Spaceship
+name: SpaceshipUpdated
 
 on:
   push
@@ -23,3 +23,4 @@ jobs:
 
       - name: SpaceShip Tests Coverage
         run: dotnet test spacebattle.Tests /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+        
