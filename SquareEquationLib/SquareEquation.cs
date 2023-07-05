@@ -7,7 +7,7 @@ public class SquareEquation
     public static double[] Solve(double a, double b, double c)
     {
         double d;
-        double eps = 1e-9;
+        double eps = 1e-6;
         double[] roots = Array.Empty<double>();
         
         d = b * b - 4 * a * c;
@@ -24,7 +24,7 @@ public class SquareEquation
         }
         if (d > eps)
         {
-            double x1 = -(b + b* Math.Sqrt(d)) / (2 * a);
+            double x1 = -(b + Math.Sqrt(d)) / (2 * a);
             double x2 = c / x1;
             roots = new double[2];
             roots[0] = x1; roots[1] = x2;

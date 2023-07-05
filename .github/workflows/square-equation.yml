@@ -2,7 +2,7 @@ name: square equation test
 
 on:
   push:
-    branches: ["xUnix_Tests"]
+    branches: ["Task_6"]
 
 jobs:
   build:
@@ -27,3 +27,6 @@ jobs:
         
       - name: xUnit Tests Coverage
         run: dotnet test SquareEquation.Tests /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+      
+      - name: Bdd Tests Coverage
+        run: dotnet test Bdd.Tests /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
